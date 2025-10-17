@@ -8,12 +8,12 @@
 
     Самый быстрый способ связаться.
 
-    [:simple-telegram: Написать](https://t.me/@nik20xll){ .md-button .md-button--primary }
+    [:simple-telegram: Написать](https://t.me/nik20xll){ .md-button .md-button--primary }
 
 -   :simple-github: **GitHub**
 
     Вопросы по коду и задачам — через Issues.
 
-    [:simple-github: Открыть профиль](https://github.com/@nik20xll){ .md-button }
+    [:simple-github: Открыть профиль](https://github.com/nik20xll){ .md-button }
 
 </div>

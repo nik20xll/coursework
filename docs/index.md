@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/logo.png" alt="Логотип" width="70" style="vertical-align:middle; margin-right:10px;"> # Добро пожаловать!
+</p>
+
 # Добро пожаловать! 
 
 Это мини-сайт курсовой работы по курсу "Введение в веб-технологии". 
