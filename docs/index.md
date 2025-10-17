@@ -65,4 +65,4 @@
 
 ## Где лежит код
 
-- GitHub: https://github.com/nulloordine/coursework/
+- GitHub: https://github.com/nik20xll/coursework/
