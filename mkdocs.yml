@@ -1,0 +1,88 @@
+site_name: Курсовая работа ICT - Никита Иванов
+site_description: Coursework Introduction in web technologies
+site_author: Nikita Ivanov
+site_url: https://nik20xll.github.io/coursework/
+
+theme:
+  name: material
+  language: ru
+  font:
+    text: Montserrat
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: dark scheme
+    - scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: light scheme
+  logo: images/logo.png        
+  favicon: images/favicon.png    
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+  - Блог:
+      - Лента: blog/index.md
+
+plugins:
+  - search:
+      lang: [ru]
+  # - sitemap:
+  #     changefreq: daily
+  #     priority: 0.5
+      
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+repo_url: https://github.com/nik20xll/coursework#
+repo_name: nik20xll/coursework
+edit_uri: edit/main/docs/
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/nik20xll
+    - icon: simple/telegram
+      link: https://t.me/nik20xll
+
+copyright: >
+  © 2025 nik20xll. HBM 2025
+
+# Сервисные настройки
+site_dir: site
+strict: false
+use_directory_urls: true
+docs_dir: docs
+
+
+extra_css:
+  - styles/typography.css
+  - styles/about.css
+  
